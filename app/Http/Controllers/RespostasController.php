@@ -14,4 +14,13 @@ class RespostasController extends Controller
             'respostas' => $list_respostas
         ]);
     }
+
+    public function store(Resposta $resposta)
+    {
+        try{
+            $resposta->save();
+        } catch (\Exception $e){
+            return 'Erro: ' . $e->getMessage();
+        }
+    }
 }

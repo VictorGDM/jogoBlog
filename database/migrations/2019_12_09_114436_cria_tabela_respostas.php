@@ -15,7 +15,7 @@ class CriaTabelaRespostas extends Migration
     {
         Schema::create('respostas', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('descricao');
+            $table->string('descricaoRes');
             $table->integer('forum_id')->unsigned();
             $table->foreign('forum_id')->references('id')->on('foruns')->onDelete('cascade');
             $table->timestamps();

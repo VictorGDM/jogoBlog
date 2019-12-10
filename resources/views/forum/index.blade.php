@@ -4,7 +4,7 @@
 <link href="{{asset('sass/forum.scss')}}" rel="stylesheet">
 
 <span>Escrever:</span>
-<button>Criar</button>
+<a href="/forum/criar"><button>Criar</button></a>
 
 <div class="col-md-8 well">
     <div class="card shadow mb-2 bg-white rounded">
@@ -27,14 +27,16 @@
                 <div class="mb-2 col-md-12">
                     <div class="card">
                         <h5 class="card-header">
-                            {{$forum->titulo}}
-                            <button>Comentar</button>
+                            {{$forum->tituloFor}}
+                            <a href="{{ url("/forum/$forum->id/comentar")}}" class="btn btn-xs btn-primary">
+                                Comentar
+                            </a>
                         </h5>
 
                         <div class="card-body">
                             <div class="accordion" id="accordionExample">
                                 <div class="card-body col-12 text-truncate">
-                                    {{$forum->descricao}}
+                                    {{$forum->descricaoFor}}
                                 </div>
                             </div>
                         </div>
@@ -68,14 +70,16 @@
                 <div class="mb-2 col-md-12">
                     <div class="card">
                         <h5 class="card-header">
-                            {{$forum->titulo}}
-                            <button>Comentar</button>
+                            {{$forum->tituloFor}}
+                            <a href="{{ url("/forum/$forum->id/comentar")}}" class="btn btn-xs btn-primary">
+                                Comentar
+                            </a>
                         </h5>
 
                         <div class="card-body">
                             <div class="accordion" id="accordionExample">
                                 <div class="card-body col-12 text-truncate">
-                                    {{$forum->descricao}}
+                                    {{$forum->descricaoFor}}
                                 </div>
                             </div>
                         </div>
@@ -109,14 +113,16 @@
                 <div class="mb-2 col-md-12">
                     <div class="card">
                         <h5 class="card-header">
-                            {{$forum->titulo}}
-                            <button>Comentar</button>
+                            {{$forum->tituloFor}}
+                            <a href="{{ url("/forum/$forum->id/comentar")}}" class="btn btn-xs btn-primary">
+                                Comentar
+                            </a>
                         </h5>
 
                         <div class="card-body">
                             <div class="accordion" id="accordionExample">
                                 <div class="card-body col-12 text-truncate">
-                                    {{$forum->descricao}}
+                                    {{$forum->descricaoFor}}
                                 </div>
                             </div>
                         </div>
@@ -150,14 +156,16 @@
                 <div class="mb-2 col-md-12">
                     <div class="card">
                         <h5 class="card-header">
-                            {{$forum->titulo}}
-                            <button>Comentar</button>
+                            {{$forum->tituloFor}}
+                            <a href="{{ url("/forum/$forum->id/comentar")}}" class="btn btn-xs btn-primary">
+                                Comentar
+                            </a>
                         </h5>
 
                         <div class="card-body">
                             <div class="accordion" id="accordionExample">
                                 <div class="card-body col-12 text-truncate">
-                                    {{$forum->descricao}}
+                                    {{$forum->descricaoFor}}
                                 </div>
                             </div>
                         </div>
@@ -191,14 +199,16 @@
                 <div class="mb-2 col-md-12">
                     <div class="card">
                         <h5 class="card-header">
-                            {{$forum->titulo}}
-                            <button>Comentar</button>
+                            {{$forum->tituloFor}}
+                            <a href="{{ url("/forum/$forum->id/comentar")}}" class="btn btn-xs btn-primary">
+                                Comentar
+                            </a>
                         </h5>
 
                         <div class="card-body">
                             <div class="accordion" id="accordionExample">
                                 <div class="card-body col-12 text-truncate">
-                                    {{$forum->descricao}}
+                                    {{$forum->descricaoFor}}
                                 </div>
                             </div>
                         </div>
@@ -232,14 +242,16 @@
                 <div class="mb-2 col-md-12">
                     <div class="card">
                         <h5 class="card-header">
-                            {{$forum->titulo}}
-                            <button>Comentar</button>
+                            {{$forum->tituloFor}}
+                            <a href="{{ url("/forum/$forum->id/comentar")}}" class="btn btn-xs btn-primary">
+                                Comentar
+                            </a>
                         </h5>
 
                         <div class="card-body">
                             <div class="accordion" id="accordionExample">
                                 <div class="card-body col-12 text-truncate">
-                                    {{$forum->descricao}}
+                                    {{$forum->descricaoFor}}
                                 </div>
                             </div>
                         </div>

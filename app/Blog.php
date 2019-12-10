@@ -8,9 +8,9 @@ class Blog extends Model
 {
     protected $fillable = [
         'id',
-        'titulo',
+        'tituloBlog',
         'subTitulo',
-        'descricao'
+        'descricaoBlog'
     ];
 
     protected $table = 'Blogs';

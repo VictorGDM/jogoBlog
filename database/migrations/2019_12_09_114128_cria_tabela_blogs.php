@@ -15,9 +15,9 @@ class CriaTabelaBlogs extends Migration
     {
         Schema::create('blogs', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('titulo');
+            $table->string('tituloBlog');
             $table->string('subTitulo');
-            $table->string('descricao');
+            $table->string('descricaoBlog');
             $table->timestamps();
         });
     }

@@ -8,9 +8,9 @@ class Forum extends Model
 {
     protected $fillable = [
         'id',
-        'titulo',
+        'tituloFor',
         'tipo',
-        'descricao'
+        'descricaoFor'
     ];
 
     protected $table = 'Foruns';

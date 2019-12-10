@@ -11,6 +11,7 @@
 |
 */
 
+use App\Http\Controllers\ForunsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function(){
@@ -22,5 +23,7 @@ Route::get('/documentacao', 'DocumentacaoController@index');
 Route::group(['prefix' => 'forum'], function(){
     Route::get('/', 'ForunsController@index');
     Route::get('/criar', 'ForunsController@createView');
+    Route::get('/{id}/comentar', 'ForunsController@comentar');
+    Route::post('/comentario', 'ForunsController@storeResp');
     Route::post('/store', 'ForunsController@store');
 });

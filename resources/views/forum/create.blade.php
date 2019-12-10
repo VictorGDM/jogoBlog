@@ -11,8 +11,8 @@
         {{ csrf_field() }}
         <div class="row">
             <div class="form-group col-md-10">
-                <label class="control-label" for="titulo">Título</label>
-                <input type="text" name="titulo" class="form-control">
+                <label class="control-label" for="tituloFor">Título</label>
+                <input type="text" name="tituloFor" class="form-control">
             </div>
         </div>
 
@@ -68,8 +68,8 @@
 
         <div class="row">
             <div class="form-group col-md-12">
-                <label class="control-label" for="name">Conteudo</label>
-                <textarea type="text" name="descricao" class="form-control col-md-12"></textarea>
+                <label class="control-label" for="descricaoFor">Conteudo</label>
+                <textarea type="text" name="descricaoFor" class="form-control col-md-12"></textarea>
             </div>
         </div>
         <button class="btn btn-primary" type="submit">Salvar</button>

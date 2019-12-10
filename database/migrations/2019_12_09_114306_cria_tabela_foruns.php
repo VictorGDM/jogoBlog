@@ -15,9 +15,9 @@ class CriaTabelaForuns extends Migration
     {
         Schema::create('foruns', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('titulo');
+            $table->string('tituloFor');
             $table->string('tipo');
-            $table->string('descricao');
+            $table->string('descricaoFor');
             $table->timestamps();
         });
     }

@@ -8,7 +8,7 @@ class Resposta extends Model
 {
     protected $fillable = [
         'id',
-        'descricao',
+        'descricaoRes',
         'forum_id'
     ];
 
