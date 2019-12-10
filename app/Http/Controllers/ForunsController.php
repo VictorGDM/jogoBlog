@@ -14,4 +14,15 @@ class ForunsController extends Controller
             'foruns' => $list_foruns
         ]);
     }
+
+    public function createView()
+    {
+        return view('forum.create');
+    }
+
+    public function store(Request $request)
+    {
+        Forum::create($request->all());
+        return redirect('/forum')->with('messade, "Fórum criado com sucesso');
+    }
 }

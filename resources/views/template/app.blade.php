@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="{{asset('sass/app.scss')}}" rel="stylesheet">
-    <title></title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>It's Me Chess</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">It's Me Chess</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand title" href="/">
+            <i class="fas fa-chess"></i> It's Me Chess</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,11 +24,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/documentacao">Documentação</a>
+                    <a class="nav-link" href="/documentacao">
+                        <i class="fas fa-book-open"> Documentação</i>
+                    </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/forum" id='forum'>Fórum</a>
+                    <a class="nav-link" href="/forum" id='forum'>
+                        <i class="fas fa-flag"> Fórum</i>
+                    </a>
                 </li>
             </ul>
         </div>

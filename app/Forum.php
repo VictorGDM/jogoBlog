@@ -8,6 +8,7 @@ class Forum extends Model
 {
     protected $fillable = [
         'id',
+        'titulo',
         'tipo',
         'descricao'
     ];

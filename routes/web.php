@@ -21,6 +21,6 @@ Route::get('/documentacao', 'DocumentacaoController@index');
 
 Route::group(['prefix' => 'forum'], function(){
     Route::get('/', 'ForunsController@index');
-    Route::get('/criar', 'ForunsController@index');
-    Route::get('/', 'ForunsController@index');
+    Route::get('/criar', 'ForunsController@createView');
+    Route::post('/store', 'ForunsController@store');
 });
