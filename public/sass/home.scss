@@ -1,0 +1,106 @@
+#divCarusel {
+  padding-top: 3vh;
+  height: auto;
+  width: 60vw;
+  padding-bottom: 3vh;
+  margin: auto;
+}
+
+.carousel {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#divBlog {
+  width: 25vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+#imgm {
+  height: 34;
+  width: 14vw;
+  position: relative;
+  top: 1vw;
+  right: -4vw;
+}
+
+#imgl {
+  width: 14vw;
+}
+
+#imgb {
+  width: 25vw;
+}
+
+.card-img-top {
+  margin: auto;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card {
+  width: auto;
+  border-radius: 4vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background: rgba(255, 255, 255, 0.541);
+  border-radius: 4vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#fontTi1 {
+  font-size: 3ex;
+  font-style: normal;
+  font-family: cursive;
+  text-decoration-line: underline;
+  text-shadow: 0px 0px 3px black;
+}
+
+#fontTi2 {
+  font-size: 3ex;
+  font-style: italic;
+  font-family: monospace;
+  text-shadow: 0px 0px 1px black;
+}
+
+#fontTi3 {
+  font-size: 3ex;
+  font-style: normal;
+  font-family: none;
+  text-shadow: 0px 0px 2px black;
+}
+
+#lerMais {
+  font-size: small;
+  color: blue;
+  font-style: italic;
+  font-family: cursive;
+  position: absolute;
+  right: 4vw;
+  text-decoration: underline;
+  text-shadow: 0px 0px 3px black;
+}
+
+#card1 {
+  background-image: url("../imgs/c1.jpg");
+  background-size: cover;
+}
+
+#card2 {
+  background-image: url("../imgs/c2.jpg");
+  background-size: cover;
+}
+
+#card3 {
+  background-image: url("../imgs/c3.gif");
+  background-size: cover;
+}
+
+.row {
+  padding-left: 5vw;
+  padding-bottom: 5vw;
+}

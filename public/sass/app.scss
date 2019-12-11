@@ -16,3 +16,24 @@
   width: 2vw;
   height: 2vh;
 }
+
+.container-fluid {
+  background-image: url("../imgs/f.jpg");
+  background-size: cover;
+}
+
+.navbar {
+  background-image: url("../imgs/nb1.jpg");
+}
+
+#titulo {
+  font-size: 4ex;
+  font-family: serif;
+  font-weight: bold;
+  color: white;
+}
+
+.fas {
+  color: white;
+  text-shadow: 2px 2px 5px red;
+}
