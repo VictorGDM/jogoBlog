@@ -1,0 +1,214 @@
+.card-text {
+  text-align: justify;
+  padding-left: 2vw;
+  -webkit-text-stroke-width: thin;
+}
+
+.card-title {
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+  font-family: inherit;
+  text-decoration-line: underline;
+  color: rgba(37, 37, 37, 0.555);
+  text-shadow: 2px 2px 4px black;
+  -webkit-text-stroke-width: medium;
+}
+
+.text-muted {
+  color: black !important;
+  font-size: large;
+}
+
+.perfilUsuario {
+  padding-bottom: 4vh;
+}
+
+.aplicacao {
+  padding-bottom: 4vh;
+}
+
+.plataforma {
+  padding-bottom: 4vh;
+}
+
+.ritmo {
+  padding-bottom: 4vh;
+}
+
+.modoJogo {
+  padding-bottom: 4vh;
+}
+
+//--------------------------\\
+
+.niveis {
+  padding-bottom: 4vh;
+}
+
+.jogabilidade {
+  padding-bottom: 4vh;
+}
+
+.musica {
+  padding-top: 4vh;
+}
+
+//--------------------------\\
+
+.narrativa {
+  padding-bottom: 4vh;
+}
+
+.personagens {
+  padding-top: 4vh;
+}
+//--------------------------\\
+
+#gameDesign {
+  height: 88vh;
+}
+
+.colmd1-1 {
+  margin: auto;
+  bottom: -2vh;
+}
+
+.colmd1-2 {
+  margin: auto;
+}
+
+#card1-1 {
+  background: rgba(21, 158, 8, 0.452);
+  border-radius: 3vw;
+
+  border-bottom: solid black;
+  border-left: solid black;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+  height: 40vh;
+  width: 20vw;
+  margin-bottom: 40%;
+  margin-top: 60%;
+  position: relative;
+  bottom: -10vh;
+}
+
+.imgGD {
+  position: relative;
+  margin: auto;
+  width: 20vw;
+  height: auto;
+  margin-top: -26vh;
+  margin-left: 2vw;
+  transform: scaleX(-1);
+}
+
+#card1-2 {
+  border-radius: 4vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.452);
+}
+
+//-----------------------------------\\
+#nivJogMus {
+  height: 88vh;
+}
+
+.teste {
+  height: 88vh;
+}
+
+.colmd2-1 {
+  margin: auto;
+  bottom: -2vh;
+}
+
+.colmd2-2 {
+  margin: auto;
+}
+
+#card2-1 {
+  background: rgba(255, 0, 0, 0.452);
+  border-radius: 3vw;
+
+  border-bottom: solid black;
+  border-right: solid black;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+  height: 40vh;
+  width: 20vw;
+  margin-bottom: 50%;
+  margin-top: 50%;
+  position: relative;
+  bottom: -10vh;
+}
+
+.imgJB {
+  position: relative;
+  margin: auto;
+  width: 20vw;
+  height: auto;
+  margin-top: -7vh;
+  margin-left: -2vw;
+  transform: scaleX(-1);
+}
+
+#card2-2 {
+  border-radius: 4vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.452);
+}
+
+//-----------------------------------\\
+#narrativa {
+  height: 88vh;
+}
+
+.teste2 {
+  height: 88vh;
+}
+
+.colmd3-1 {
+  margin: auto;
+  bottom: -2vh;
+}
+
+.colmd3-2 {
+  margin: auto;
+}
+
+#card3-1 {
+  background: rgba(255, 25, 243, 0.452);
+  border-radius: 3vw;
+
+  border-bottom: solid black;
+  border-left: solid black;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+  height: 40vh;
+  width: 20vw;
+  margin-bottom: 40%;
+  margin-top: 60%;
+  position: relative;
+  bottom: -10vh;
+}
+
+.imgN {
+  position: relative;
+  margin: auto;
+  width: 20vw;
+  height: auto;
+  margin-top: -18vh;
+  margin-left: 2vw;
+  transform: scaleX(-1);
+}
+
+#card3-2 {
+  border-radius: 4vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.452);
+}
